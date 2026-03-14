@@ -21,8 +21,7 @@ class Program
                 int a = m * m - n * n;
                 int b = 2 * m * n;
                 int c = m * m + n * n;
-
-                // Вывод строки таблицы
+                
                 Console.WriteLine("{0,-5} {1,-5} {2,-10} {3,-10} {4,-10}",
                                   m, n, a, b, c);
             }
